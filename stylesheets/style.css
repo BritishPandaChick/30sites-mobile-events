@@ -1,0 +1,158 @@
+/* Base Styles */
+body {
+    font-family: 'Source Sans Pro';
+  }
+  
+  #meet, #interwebs {
+    height: 600px;
+  } 
+  
+  img {
+    height: 160px;
+  }
+  
+  /* Grid System */
+  .full-width {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .half-width {
+    width: 600px;
+    float: left;
+  }
+  
+  .third-width {
+    width: 400px;
+    float: left;
+  }
+  
+  /* Header */
+  header {
+    height: 130px;
+    background-color: #48D1CC;
+    background-size: cover;
+  }
+  
+  header h1 {
+    padding: 50px 0;
+    font-family: Arial;
+    font-size: 25px;
+    color: #006400;
+  }
+  
+  header nav {
+    float: right;
+    padding: 45px 10px;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #006400;
+    padding-left: 9px;
+  }
+  
+  /* Meet new members */
+  #meet .full-width {
+    padding: 80px 0;
+  }
+  
+  #meet h2 {
+    font-size: 36px;
+    font-family: Arial;
+    color: #006400;
+  }
+  
+  #meet img {
+    padding-bottom: 30px;
+  }
+  
+  #meet h3 {
+    width: 190px;
+    font-size: 24px;
+    margin: 0 auto;
+  }
+  
+  #meet p {
+    line-height: 30px;
+    padding: 0 35px;
+    font-family: 'Source Sans Pro';
+    margin-bottom: 25px;
+  }
+  
+  #meet #el-jefe {
+    margin-left: 35px;
+  }
+  
+  #meet #ramen-tacos {
+    margin-left: 75px;
+  }
+  
+  #meet #beignets {
+    margin-left: 55px;
+  }
+  
+  /* Social Media Interwebs */
+  #interwebs .full-width {
+    padding: 80px 0;
+    margin-top: -155px;
+  }
+  
+  #interwebs h3 {
+    font-size: 36px;
+    font-family: Arial;
+  }
+  
+  #interwebs nav ul li {
+    display: inline-block;
+  }
+  
+  #interwebs nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #006400;
+  }
+  
+  #interwebs img {
+    padding-right: 48px;
+    height: 35px;
+  }
+  
+  /* Bottom Navigation */
+  #bottom-nav {
+    background-color: #006400;
+    margin-top: -305px;
+  }
+  
+  #bottom-nav .full-width {
+    padding: 110px 0;
+  }
+  
+  #bottom-nav nav {
+    text-align: center;
+  }
+  
+  #bottom-nav nav ul li {
+    display: inline-block;
+  }
+  
+  #bottom-nav nav ul li a {
+    text-decoration: none;
+    padding-left: 25px;
+    color: #FFF;
+    font-size: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #48D1CC;
+    font-size: 15px;
+    padding: 15px;
+    height: 50px;
+    color: #006400;
+  }
