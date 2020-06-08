@@ -18,11 +18,11 @@
   <body>
     <header>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12">
-            <h1 class="text-center">Fictional Food Truck Association</h1>
-          </div>
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <h1 class="text-center">Fictional Food Truck Association</h1>
+        </div>
 
+        <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <nav>
               <ul class="nav">
@@ -40,57 +40,76 @@
 
     <main>
       <section id="meet">
-        <div class="col-xs-12 full-width">
-          <h2>Meet the newest members!</h2>
-          <div class="col-xs-3 third-width">
-            <img src="https://www.austinchronicle.com/binary/83ff/rsz_chef-chef_09476_rgb.jpg" alt="El Jefe Food Truck" />
-            <h3 class='text-center'>El Jefe</h3>
+        <h2>Meet the newest members!</h2>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="https://cdn.pixabay.com/photo/2016/11/20/09/06/bowl-1842294_960_720.jpg" alt="Truffle French Fries" class="img-thumbnail" />
+            <h3 class='text-center'>Gusteau's</h3>
+            <button class="btn btn-block btn-info">Learn More</button>
+          </div>
+          
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="https://cdn.pixabay.com/photo/2018/07/18/19/12/spaghetti-3547078_960_720.jpg" alt="Spaghetti marinara" class="img-thumbnail" />
+            <h3 class='text-center'>Tony's</h3>
+            <button class="btn btn-block btn-info">Learn More</button>
           </div>
 
-          <div class="col-xs-3 third-width">
-            <img src="https://vignette.wikia.nocookie.net/webarebears/images/d/d3/TACO_RAMEN.png/revision/latest?cb=20150729022431" alt="Ramen Tacos"/>
-            <h3 class='text-center'>Ramen Tacos</h3>
-          </div>
-
-          <div class="col-xs-3 third-width">
-            <img src="http://tiphero.com/wp-content/uploads/2017/02/New-Orleans-Beignets-FI.jpg" alt="Sabine Beignets"/>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="http://tiphero.com/wp-content/uploads/2017/02/New-Orleans-Beignets-FI.jpg" alt="Sabine Beignets" class="img-thumbnail" />
             <h3 class='text-center'>Sabine's Beignets</h3>
+            <button class="btn btn-block btn-info">Learn More</button>
           </div>
         </div>
       </section>
 
-      <section id="interwebs">
-        <div class="col-xs-12 full-width">
-          <div class="col-xs-6 half-width">
-            <h2>Follow us on social media!</h2>
-          </div>
-          <div class="col-xs-6 half-width">
+      <section id="email">
+        <div class="container">
+          <h2>Sign up for our newsletter!</h2>
+
+          <form>
+            <div class="form-group">
+              <div class="row">
+                <input type="name" class="form-control" placeholder="name">
+                <input type="email" class="form-control" placeholder="email">
+                <input type="button" class="btn btn-block btn-info">
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="bottom-nav">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <nav>
-              <ul>
-                <li><a href="#"><i class='fab fa-facebook fa-2x'></i></a></li>
-                <li><a href="#"><i class='fab fa-twitter fa-2x'></i></a></li>
+              <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Meet Our Members</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Become a Member</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sponsors</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
               </ul>
             </nav>
           </div>
         </div>
       </section>
+    </main>
 
-      <section id="bottom-nav">
-        <div class="col-xs-12 full-width">
-          <nav class="col-xs-12 full-width">
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Meet Our Members</a></li>
-              <li><a href="#">Become a Member</a></li>
-              <li><a href="#">Sponsors</a></li>
-              <li><a href="#">Contact Us</a></li>
+    <footer>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <p>&copy; BritishPandaChick 2018. All Rights Reserved</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <nav>
+            <ul class="nav">
+              <li class="nav-item"><a href="#" class="nav-link"><i class='fab fa-facebook fa-2x'></i></a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><i class='fab fa-twitter fa-2x'></i></a></li>
             </ul>
           </nav>
         </div>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; BritishPandaChick 2018. All Rights Reserved</p>
+      </div>     
     </footer>
 
     <!-- Bootstrap JS -->
