@@ -1,0 +1,11 @@
+/* Variables */ 
+$base-font: "Source Sans Pro", sans-serif;
+$headline-font: "Times New Roman", serif;
+$base-color: #545C52;
+$background-color: #BBC7CE;
+$headline-color: #BFEDEF;
+
+/* Header */
+header {
+  border: 2px solid red;
+}
