@@ -1,0 +1,19 @@
+{
+  "name": "day-eleven",
+  "version": "1.0.0",
+  "description": "30 Days, 30 Sites Day 11 website. Mobile services and events website. Made with HTML, Bootstrap, and Sass.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BritishPandaChick/30sites-mobile-events.git"
+  },
+  "author": "Sarah Bartley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BritishPandaChick/30sites-mobile-events/issues"
+  },
+  "homepage": "https://github.com/BritishPandaChick/30sites-mobile-events#readme"
+}

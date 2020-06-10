@@ -1,17 +1,27 @@
-/* Error: expected "{".
- *    ,
- * 11 |   color $base-color;
- *    |                    ^
- *    '
- *   sass\mobile.scss 11:20  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 11 \2502    color $base-color;\d\a    \2502                     ^\a    \2575 \a   sass\\mobile.scss 11:20  root stylesheet';
+/* Variables */
+/* Base Styles */
+body {
+  color: #545C52;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 20px;
+  font-family: serif;
 }
+
+/* Header */
+header {
+  width: 100%;
+  background-color: #BBC7CE;
+  padding: 20px 0;
+}
+header h1 {
+  color: #BFEDEF;
+  font-size: 30px;
+}
+header nav {
+  color: #BFEDEF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=mobile.css.map */

@@ -1,12 +1,32 @@
 /* Variables */ 
 $base-font: "Source Sans Pro", sans-serif;
-$headline-font: "Times New Roman", serif;
 $base-color: #545C52;
 $background-color: #BBC7CE;
 $headline-color: #BFEDEF;
 
 /* Base Styles */
 body {
+  color: $base-color;
   margin: 0 auto;
-  color $base-color;
+  width: 100%;
+  font-size: 20px;
+  font-family: serif;
+}
+
+/* Header */ 
+header {
+  width: 100%;
+  background-color: $background-color;
+  padding: 20px 0;
+
+  h1 {
+    color: $headline-color;
+    font-size: 30px;
+  }
+
+  nav {
+    color: $headline-color;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
