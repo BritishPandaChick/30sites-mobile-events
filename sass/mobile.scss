@@ -1,8 +1,9 @@
 /* Variables */ 
 $base-font: "Source Sans Pro", sans-serif;
 $base-color: #545C52;
-$background-color: #BBC7CE;
-$headline-color: #BFEDEF;
+$background-color: #777DA7;
+$headline-color: #D5573B;
+$hover-color: #C6ECAE;
 
 /* Base Styles */
 body {
@@ -10,23 +11,55 @@ body {
   margin: 0 auto;
   width: 100%;
   font-size: 20px;
-  font-family: serif;
+  font-family: "Times New Roman", serif;
 }
 
 /* Header */ 
 header {
-  width: 100%;
   background-color: $background-color;
   padding: 20px 0;
 
   h1 {
-    color: $headline-color;
-    font-size: 30px;
+    font-size: 35px;
+    color: #fff;
+    font-family: $base-font;
   }
 
-  nav {
-    color: $headline-color;
+  a {
+    color: #fff;
     font-size: 20px;
     font-weight: bold;
+    font-family: "Times New Roman", serif;
+  }
+
+  a:hover {
+    color: $hover-color;
+  }
+}
+
+/* Email */ 
+#email {
+  padding: 20px 0;
+  background-color: $headline-color;
+
+  h2 {
+    font-size: 30px;
+    color: #fff;
+  }
+}
+
+/* meet */
+#meet {
+  padding: 20px 0;
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    color: $headline-color;
+  }
+
+  h3 {
+    font-size: 25px;
+    color: $base-color;
   }
 }
