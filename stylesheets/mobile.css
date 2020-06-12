@@ -4,7 +4,6 @@ body {
   color: #545C52;
   margin: 0 auto;
   width: 100%;
-  font-size: 20px;
   font-family: "Times New Roman", serif;
 }
 
@@ -50,6 +49,62 @@ header a:hover {
 #meet h3 {
   font-size: 25px;
   color: #545C52;
+}
+#meet button {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+/* Highlight */
+#highlight {
+  padding: 20px 0;
+}
+#highlight h2 {
+  font-size: 30px;
+  color: #D5573B;
+  text-align: center;
+}
+#highlight h3 {
+  font-size: 25px;
+  color: #545C52;
+}
+#highlight p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Times New Roman", serif;
+}
+#highlight img {
+  margin: 15px 0;
+}
+#highlight button {
+  font-size: 20px;
+}
+
+/* Bottom Nav */
+#bottom-nav {
+  padding: 20px 0;
+  background-color: #D5573B;
+}
+#bottom-nav a {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Times New Roman", serif;
+}
+#bottom-nav a:hover {
+  color: #C6ECAE;
+}
+
+/* Footer */
+footer {
+  background-color: #777DA7;
+  padding: 15px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 18px;
+}
+footer a {
+  color: #fff;
 }
 
 /*# sourceMappingURL=mobile.css.map */

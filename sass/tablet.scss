@@ -1,0 +1,37 @@
+/* Variables */ 
+$base-font: "Source Sans Pro", sans-serif;
+$base-color: #545C52;
+$background-color: #777DA7;
+$headline-color: #D5573B;
+$hover-color: #C6ECAE;
+
+/* Base Styles */
+body {
+    color: $base-color;
+    margin: 0 auto;
+    width: 100%;
+    font-family: "Times New Roman", serif;
+}
+
+/* Header */ 
+header {
+    background-color: $background-color;
+    padding: 20px 0;
+  
+    h1 {
+      font-size: 40px;
+      color: #fff;
+      font-family: $base-font;
+    }
+  
+    a {
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "Times New Roman", serif;
+    }
+  
+    a:hover {
+      color: $hover-color;
+    }
+}
