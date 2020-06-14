@@ -1,0 +1,137 @@
+/* Variables */ 
+$base-font: "Source Sans Pro", sans-serif;
+$base-color: #545C52;
+$background-color: #777DA7;
+$headline-color: #D5573B;
+$hover-color: #C6ECAE;
+
+/* Base Styles */
+body {
+    color: $base-color;
+    margin: 0 auto;
+    width: 100%;
+    font-family: "Times New Roman", serif;
+}
+
+/* Header */ 
+header {
+    background-color: $background-color;
+    padding: 20px 0;
+  
+    h1 {
+      font-size: 50px;
+      color: #fff;
+      font-family: $base-font;
+    }
+  
+    a {
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "Times New Roman", serif;
+    }
+  
+    a:hover {
+      color: $hover-color;
+    }
+}
+
+/* Email */ 
+#email {
+    padding: 20px 0;
+    background-color: $headline-color;
+  
+    h2 {
+      font-size: 45px;
+      color: #fff;
+      padding: 15px 0;
+    }
+  
+    .btn {
+      font-size: 20px;
+    }
+  }
+  
+/* meet */
+#meet {
+    padding: 20px 0;
+  
+    h2 {
+      text-align: center;
+      font-size: 45px;
+      color: $headline-color;
+      padding-bottom: 15px;
+    }
+  
+    h3 {
+      font-size: 40px;
+      color: $base-color;
+      padding: 15px 0;
+    }
+    
+    button {
+      margin-bottom: 25px;
+      font-size: 20px;
+    }
+}
+
+/* Highlight */ 
+#highlight {
+    padding: 20px 0;
+  
+    h2 {
+      font-size: 45px;
+      color: $headline-color;
+      text-align: center;
+    }
+    
+    h3 {
+      font-size: 40px;
+      color: $base-color;
+    }
+  
+    p {
+      font-size: 20px;
+      line-height: 32px;
+      font-family: "Times New Roman", serif;
+    }
+  
+    img {
+      margin: 15px 0;
+    }
+  
+    button {
+      font-size: 20px;
+    }
+}
+
+/* Bottom Nav */ 
+#bottom-nav {
+    padding: 20px 0;
+    background-color: $headline-color;
+  
+    a {
+      color: #fff;
+      font-size: 20px;
+      font-family: "Times New Roman", serif;
+    }
+  
+    a:hover {
+      color: $hover-color;
+    }
+}
+
+/* Footer */ 
+footer {
+    background-color: $background-color;
+    padding: 15px 0;
+  
+    p {
+      color: #fff;
+      font-size: 18px;
+    }
+  
+    a {
+      color: #fff;
+    }
+  }

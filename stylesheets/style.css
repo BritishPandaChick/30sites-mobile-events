@@ -1,3 +1,116 @@
+/* Variables */
+/* Base Styles */
+body {
+  color: #545C52;
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Times New Roman", serif;
+}
 
+/* Header */
+header {
+  background-color: #777DA7;
+  padding: 20px 0;
+}
+header h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+header a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
+}
+header a:hover {
+  color: #C6ECAE;
+}
+
+/* Email */
+#email {
+  padding: 20px 0;
+  background-color: #D5573B;
+}
+#email h2 {
+  font-size: 45px;
+  color: #fff;
+  padding: 15px 0;
+}
+#email .btn {
+  font-size: 20px;
+}
+
+/* meet */
+#meet {
+  padding: 20px 0;
+}
+#meet h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #D5573B;
+  padding-bottom: 15px;
+}
+#meet h3 {
+  font-size: 40px;
+  color: #545C52;
+  padding: 15px 0;
+}
+#meet button {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+/* Highlight */
+#highlight {
+  padding: 20px 0;
+}
+#highlight h2 {
+  font-size: 45px;
+  color: #D5573B;
+  text-align: center;
+}
+#highlight h3 {
+  font-size: 40px;
+  color: #545C52;
+}
+#highlight p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Times New Roman", serif;
+}
+#highlight img {
+  margin: 15px 0;
+}
+#highlight button {
+  font-size: 20px;
+}
+
+/* Bottom Nav */
+#bottom-nav {
+  padding: 20px 0;
+  background-color: #D5573B;
+}
+#bottom-nav a {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Times New Roman", serif;
+}
+#bottom-nav a:hover {
+  color: #C6ECAE;
+}
+
+/* Footer */
+footer {
+  background-color: #777DA7;
+  padding: 15px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 18px;
+}
+footer a {
+  color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */

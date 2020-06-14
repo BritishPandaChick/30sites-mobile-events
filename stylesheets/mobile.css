@@ -4,7 +4,6 @@ body {
   color: #545C52;
   margin: 0 auto;
   width: 100%;
-  font-family: "Times New Roman", serif;
 }
 
 /* Header */
@@ -13,9 +12,14 @@ header {
   padding: 20px 0;
 }
 header h1 {
-  font-size: 35px;
   color: #fff;
+}
+header h1 a {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 35px;
+}
+header h1 a:hover {
+  color: #C6ECAE;
 }
 header a {
   color: #fff;
@@ -35,6 +39,7 @@ header a:hover {
 #email h2 {
   font-size: 30px;
   color: #fff;
+  padding-bottom: 10px;
 }
 
 /* meet */
@@ -45,10 +50,15 @@ header a:hover {
   text-align: center;
   font-size: 30px;
   color: #D5573B;
+  padding-bottom: 10px;
+}
+#meet img {
+  margin-bottom: 10px;
 }
 #meet h3 {
   font-size: 25px;
   color: #545C52;
+  padding-bottom: 10px;
 }
 #meet button {
   margin-bottom: 25px;
@@ -63,6 +73,7 @@ header a:hover {
   font-size: 30px;
   color: #D5573B;
   text-align: center;
+  padding-bottom: 15px;
 }
 #highlight h3 {
   font-size: 25px;
@@ -72,6 +83,7 @@ header a:hover {
   font-size: 20px;
   line-height: 32px;
   font-family: "Times New Roman", serif;
+  padding: 15px 0;
 }
 #highlight img {
   margin: 15px 0;
@@ -84,6 +96,8 @@ header a:hover {
 #bottom-nav {
   padding: 20px 0;
   background-color: #D5573B;
+  display: flex;
+  flex-direction: column;
 }
 #bottom-nav a {
   color: #fff;
