@@ -94,15 +94,17 @@ header a:hover {
 
 /* Bottom Nav */
 #bottom-nav {
-  padding: 20px 0;
   background-color: #D5573B;
-  display: flex;
-  flex-direction: column;
+  padding: 20px 0;
+}
+#bottom-nav h2 {
+  color: #fff;
+  font-size: 30px;
 }
 #bottom-nav a {
-  color: #fff;
   font-size: 20px;
-  font-family: "Times New Roman", serif;
+  color: #fff;
+  text-decoration: none;
 }
 #bottom-nav a:hover {
   color: #C6ECAE;

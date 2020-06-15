@@ -115,15 +115,18 @@ header {
 
 /* Bottom Nav */ 
 #bottom-nav {
-  padding: 20px 0;
   background-color: $headline-color;
-  display: flex;
-  flex-direction: column;
+  padding: 20px 0;
 
-  a {
+  h2 {
     color: #fff;
+    font-size: 30px;
+  }
+  
+  a {
     font-size: 20px;
-    font-family: "Times New Roman", serif;
+    color: #fff;
+    text-decoration: none;
   }
 
   a:hover {
