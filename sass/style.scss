@@ -19,20 +19,31 @@ header {
     padding: 20px 0;
   
     h1 {
-      font-size: 50px;
       color: #fff;
-      font-family: $base-font;
+      
+      a {
+        font-size: 50px;
+        font-family: $base-font;
+      }
+    
+      a:hover {
+        color: $hover-color;
+      }
     }
-  
-    a {
-      color: #fff;
-      font-size: 20px;
-      font-weight: bold;
-      font-family: "Times New Roman", serif;
-    }
-  
-    a:hover {
-      color: $hover-color;
+
+    li {
+      padding-left: 25px;
+      
+      a {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Times New Roman", serif;
+      }
+    
+      a:hover {
+        color: $hover-color;
+      } 
     }
 }
 
@@ -44,23 +55,23 @@ header {
     h2 {
       font-size: 45px;
       color: #fff;
-      padding: 15px 0;
-    }
-  
-    .btn {
-      font-size: 20px;
+      padding: 25px 0;
     }
   }
   
 /* meet */
 #meet {
-    padding: 20px 0;
+    padding: 40px 0;
   
     h2 {
       text-align: center;
       font-size: 45px;
       color: $headline-color;
       padding-bottom: 15px;
+    }
+
+    img {
+      margin-bottom: 10px;
     }
   
     h3 {

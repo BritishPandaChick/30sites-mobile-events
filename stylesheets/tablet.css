@@ -13,9 +13,14 @@ header {
   padding: 20px 0;
 }
 header h1 {
-  font-size: 40px;
   color: #fff;
+}
+header h1 a {
+  font-size: 40px;
   font-family: "Source Sans Pro", sans-serif;
+}
+header h1 a:hover {
+  color: #C6ECAE;
 }
 header a {
   color: #fff;
@@ -37,38 +42,37 @@ header a:hover {
   color: #fff;
   padding: 15px 0;
 }
-#email .btn {
-  font-size: 20px;
-}
 
 /* meet */
 #meet {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #meet h2 {
-  text-align: center;
   font-size: 40px;
   color: #D5573B;
   padding-bottom: 15px;
 }
+#meet img {
+  margin-bottom: 10px;
+}
 #meet h3 {
   font-size: 35px;
   color: #545C52;
-  padding: 15px 0;
+  padding-bottom: 10px;
 }
 #meet button {
   margin-bottom: 25px;
-  font-size: 20px;
 }
 
 /* Highlight */
 #highlight {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #highlight h2 {
   font-size: 40px;
   color: #D5573B;
   text-align: center;
+  padding-bottom: 15px;
 }
 #highlight h3 {
   font-size: 35px;
@@ -91,26 +95,42 @@ header a:hover {
   padding: 20px 0;
   background-color: #D5573B;
 }
-#bottom-nav a {
+#bottom-nav h2 {
   color: #fff;
-  font-size: 20px;
-  font-family: "Times New Roman", serif;
+  font-size: 30px;
+  padding-bottom: 15px;
 }
-#bottom-nav a:hover {
+#bottom-nav ul {
+  display: flex;
+}
+#bottom-nav ul li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+#bottom-nav ul li a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#bottom-nav ul li a:hover {
   color: #C6ECAE;
 }
 
 /* Footer */
 footer {
   background-color: #777DA7;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 footer p {
   color: #fff;
   font-size: 18px;
+  padding-left: 25px;
 }
 footer a {
   color: #fff;
+}
+footer a:hover {
+  color: #C6ECAE;
 }
 
 /*# sourceMappingURL=tablet.css.map */

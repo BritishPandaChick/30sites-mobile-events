@@ -13,17 +13,25 @@ header {
   padding: 20px 0;
 }
 header h1 {
-  font-size: 50px;
   color: #fff;
+}
+header h1 a {
+  font-size: 50px;
   font-family: "Source Sans Pro", sans-serif;
 }
-header a {
+header h1 a:hover {
+  color: #C6ECAE;
+}
+header li {
+  padding-left: 25px;
+}
+header li a {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
   font-family: "Times New Roman", serif;
 }
-header a:hover {
+header li a:hover {
   color: #C6ECAE;
 }
 
@@ -35,21 +43,21 @@ header a:hover {
 #email h2 {
   font-size: 45px;
   color: #fff;
-  padding: 15px 0;
-}
-#email .btn {
-  font-size: 20px;
+  padding: 25px 0;
 }
 
 /* meet */
 #meet {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #meet h2 {
   text-align: center;
   font-size: 45px;
   color: #D5573B;
   padding-bottom: 15px;
+}
+#meet img {
+  margin-bottom: 10px;
 }
 #meet h3 {
   font-size: 40px;

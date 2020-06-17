@@ -59,7 +59,6 @@ header {
   padding: 20px 0;
 
   h2 {
-    text-align: center;
     font-size: 30px;
     color: $headline-color;
     padding-bottom: 10px;
@@ -122,29 +121,39 @@ header {
     color: #fff;
     font-size: 30px;
   }
-  
-  a {
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-  }
 
-  a:hover {
-    color: $hover-color;
+  li {
+    list-style-type: none;
+    padding: 10px 0;
+
+    a {
+      font-size: 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+  
+    a:hover {
+      color: $hover-color;
+    }
   }
 }
 
 /* Footer */ 
 footer {
   background-color: $background-color;
-  padding: 15px 0;
+  padding: 20px 0;
 
   p {
     color: #fff;
     font-size: 18px;
+    padding-left: 10px;
   }
 
   a {
     color: #fff;
+  }
+
+  a:hover {
+    color: $hover-color;
   }
 }

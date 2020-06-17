@@ -47,7 +47,6 @@ header a:hover {
   padding: 20px 0;
 }
 #meet h2 {
-  text-align: center;
   font-size: 30px;
   color: #D5573B;
   padding-bottom: 10px;
@@ -101,26 +100,34 @@ header a:hover {
   color: #fff;
   font-size: 30px;
 }
-#bottom-nav a {
+#bottom-nav li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+#bottom-nav li a {
   font-size: 20px;
   color: #fff;
   text-decoration: none;
 }
-#bottom-nav a:hover {
+#bottom-nav li a:hover {
   color: #C6ECAE;
 }
 
 /* Footer */
 footer {
   background-color: #777DA7;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 footer p {
   color: #fff;
   font-size: 18px;
+  padding-left: 10px;
 }
 footer a {
   color: #fff;
+}
+footer a:hover {
+  color: #C6ECAE;
 }
 
 /*# sourceMappingURL=mobile.css.map */
