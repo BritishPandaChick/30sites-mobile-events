@@ -10,7 +10,6 @@ body {
     color: $base-color;
     margin: 0 auto;
     width: 100%;
-    font-family: "Times New Roman", serif;
 }
 
 /* Header */ 
@@ -32,7 +31,7 @@ header {
     }
 
     li {
-      padding-left: 25px;
+      padding-left: 20px;
       
       a {
         color: #fff;
@@ -62,9 +61,9 @@ header {
 /* meet */
 #meet {
     padding: 40px 0;
+    border: 2px solid orange;
   
     h2 {
-      text-align: center;
       font-size: 45px;
       color: $headline-color;
       padding-bottom: 15px;
@@ -77,12 +76,7 @@ header {
     h3 {
       font-size: 40px;
       color: $base-color;
-      padding: 15px 0;
-    }
-    
-    button {
-      margin-bottom: 25px;
-      font-size: 20px;
+      padding-bottom: 10px;
     }
 }
 
@@ -94,6 +88,7 @@ header {
       font-size: 45px;
       color: $headline-color;
       text-align: center;
+      padding-bottom: 15px;
     }
     
     h3 {
@@ -110,39 +105,54 @@ header {
     img {
       margin: 15px 0;
     }
-  
-    button {
-      font-size: 20px;
-    }
 }
 
 /* Bottom Nav */ 
 #bottom-nav {
-    padding: 20px 0;
-    background-color: $headline-color;
+  padding: 20px 0;
+  background-color: $headline-color;
+
+  h2 {
+    color: #fff;
+    font-size: 45px;
+    padding-bottom: 15px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+      list-style-type: none;
   
-    a {
-      color: #fff;
-      font-size: 20px;
-      font-family: "Times New Roman", serif;
+      a {
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+      }
+    
+      a:hover {
+        color: $hover-color;
+      }
     }
-  
-    a:hover {
-      color: $hover-color;
-    }
+  }
 }
 
 /* Footer */ 
 footer {
     background-color: $background-color;
-    padding: 15px 0;
+    padding: 20px 0;
   
     p {
       color: #fff;
-      font-size: 18px;
+      font-size: 16px;
     }
   
     a {
       color: #fff;
     }
-  }
+
+    a:hover {
+      color: $hover-color;
+    }
+}
